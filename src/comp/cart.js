@@ -5,6 +5,7 @@ import { AiOutlineClose } from 'react-icons/ai';
 import { toast } from 'react-toastify';
 import Modal from './Model';
 import { collection, addDoc } from 'firebase/firestore';
+import { firebase } from './config';
 
 const Cart = ({ cart, setCart }) => {
   // Increase Quantity of cart product
